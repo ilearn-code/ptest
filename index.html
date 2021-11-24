@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            header{
+                position: sticky;
+                top: 0px;
+            }
+            nav{
+                background-color: black;
+                
+                 margin-bottom: 35px;
+                border: 2px solid red;
+            }
+           #h1{
+            font-size: 70px;
+            border: 2px solid black;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            background-color: brown;
+            color: white;
+           margin-bottom: 8px;
+        }
+        ul li{
+            list-style: none;
+            font-size: 35px;
+            border: 2px solid black;
+            border-radius: 18px;
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: blue;
+            color: white;
+           
+        }
+        ul li:hover{
+            background-color: green;
+            color: white;
+            cursor: grab;
+           
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .card{
+            border: 4px solid;
+            padding: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        h2{
+            border: 2px solid black;
+            background-color: tomato;
+            color: white;
+            width: 200px;
+            text-align: center;
+            font-weight: bold;
+            padding: 3px;
+        }
+        h3{
+            border: 2px solid black;
+            background-color: blue;
+            color: white;
+            width: 200px;
+            padding: 3px;
+            text-align: center;   
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        footer{
+            background-color: black;
+            color: white;
+        }
+        #footerid1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: row;
+            font-size: 30px;
+            padding: 10px;
+        }
+        #footerid2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+            font-size: 29px;
+            color: red;
+            padding: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <header >
+           <div id="h1">Amazon Online Shopping</div>
+       </header>
+       <nav>
+        <ul>
+            <li>Home</li>
+            <li>Offers</li>
+            <li>Category</li>
+            <li>Contact us</li>
+            <li>Review</li>
+        </ul>
+    </nav>
+        <section>
+        <div class="container">
+        <div class="card"> 
+        <div class="card-header"><h2>Men's Jeans</h2></div>
+        <div class="card-body"><img src="Assets\jeans.jpg"></div>
+        <div class="card-footer"><h3>&#8377; 2400.99</h3></div>
+        </div>
+        <div class="card"> 
+        <div class="card-header"><h2>Headphone</h2></div>
+        <div class="card-body"><img src="../Assets/headphone.jpg"></div>
+        <div class="card-footer"><h3>&#8377; 2000.99</h3></div>
+        </div>
+        <div class="card"> 
+        <div class="card-header"><h2>Dairy Milk</h2></div>
+        <div class="card-body"><img src="../Assets/dairymilk.jpg"></div>
+        <div class="card-footer"><h3>&#8377; 1400.99</h3></div>
+        </div>
+       <div class="card"> 
+       <div class="card-header"><h2>Laptop</h2></div>
+       <div class="card-body"><img src="../Assets/laptop.jpg"></div>
+       <div class="card-footer"><h3>&#8377; 54000.00</h3></div>
+       </div>
+       <div class="card"> 
+       <div class="card-header"><h2>Nacklace</h2></div>
+       <div class="card-body"><img src="../Assets/nacklace.jpg"></div>
+       <div class="card-footer"><h3>&#8377; 120000.00</h3></div>
+       </div>
+      <div class="card"> 
+      <div class="card-header"><h2>Printer</h2></div>
+      <div class="card-body"><img src="../Assets/printer.jpg"></div>
+      <div class="card-footer"><h3>&#8377; 3400.99</h3></div>
+      </div>
+      <div class="card"> 
+      <div class="card-header"><h2>Shirt</h2></div>
+      <div class="card-body"><img src="../Assets/shirt.jpg"></div>
+      <div class="card-footer"><h3>&#8377; 1700.99</h3></div>
+      </div>
+      <div class="card"> 
+      <div class="card-header"><h2>Shoes</h2></div>
+      <div class="card-body"><img src="../Assets/shoes.jpeg"></div>
+      <div class="card-footer"><h3>&#8377; 2900.00</h3></div>
+      </div>
+      <div class="card"> 
+      <div class="card-header"><h2>T-Shirt</h2></div>
+      <div class="card-body"><img src="../Assets/t-shirt.jpg"></div>
+      <div class="card-footer"><h3>&#8377; 1900.00</h3></div>
+      </div>
+      <div class="card"> 
+      <div class="card-header"><h2>TV</h2></div>
+      <div class="card-body"><img src="../Assets/tv.jpg"></div>
+      <div class="card-footer"><h3>&#8377; 22000.00</h3></div>
+      </div>
+      <div class="card"> 
+        <div class="card-header"><h2>Men's Jeans</h2></div>
+        <div class="card-body"><img src="../Assets/jeans.jpg"></div>
+        <div class="card-footer"><h3>&#8377; 2400.99</h3></div>
+        </div>
+        <div class="card"> 
+        <div class="card-header"><h2>Headphone</h2></div>
+        <div class="card-body"><img src="../Assets/headphone.jpg"></div>
+        <div class="card-footer"><h3>&#8377; 2000.99</h3></div>
+        </div>
+        <div class="card"> 
+        <div class="card-header"><h2>Dairy Milk</h2></div>
+        <div class="card-body"><img src="../Assets/dairymilk.jpg"></div>
+        <div class="card-footer"><h3>&#8377; 1400.99</h3></div>
+        </div>
+       <div class="card"> 
+       <div class="card-header"><h2>Laptop</h2></div>
+       <div class="card-body"><img src="../Assets/laptop.jpg"></div>
+       <div class="card-footer"><h3>&#8377; 54000.00</h3></div>
+       </div>
+       <div class="card"> 
+       <div class="card-header"><h2>Nacklace</h2></div>
+       <div class="card-body"><img src="../Assets/nacklace.jpg"></div>
+       <div class="card-footer"><h3>&#8377; 120000.00</h3></div>
+       </div>
+      <div class="card"> 
+      <div class="card-header"><h2>Printer</h2></div>
+      <div class="card-body"><img src="../Assets/printer.jpg"></div>
+      <div class="card-footer"><h3>&#8377; 3400.99</h3></div>
+      </div>
+      <div class="card"> 
+      <div class="card-header"><h2>Shirt</h2></div>
+      <div class="card-body"><img src="../Assets/shirt.jpg"></div>
+      <div class="card-footer"><h3>&#8377; 1700.99</h3></div>
+      </div>
+      <div class="card"> 
+      <div class="card-header"><h2>Shoes</h2></div>
+      <div class="card-body"><img src="../Assets/shoes.jpeg"></div>
+      <div class="card-footer"><h3>&#8377; 2900.00</h3></div>
+      </div>
+      <div class="card"> 
+      <div class="card-header"><h2>T-Shirt</h2></div>
+      <div class="card-body"><img src="../Assets/t-shirt.jpg"></div>
+      <div class="card-footer"><h3>&#8377; 1900.00</h3></div>
+      </div>
+      <div class="card"> 
+      <div class="card-header"><h2>TV</h2></div>
+      <div class="card-body"><img src="../Assets/tv.jpg"></div>
+      <div class="card-footer"><h3>&#8377; 22000.00</h3></div>
+      </div>
+      <div class="card"> 
+        <div class="card-header"><h2>T-Shirt</h2></div>
+        <div class="card-body"><img src="../Assets/t-shirt.jpg"></div>
+        <div class="card-footer"><h3>&#8377; 1900.00</h3></div>
+        </div>
+        <div class="card"> 
+        <div class="card-header"><h2>TV</h2></div>
+        <div class="card-body"><img src="../Assets/tv.jpg"></div>
+        <div class="card-footer"><h3>&#8377; 22000.00</h3></div>
+        </div>
+        <div class="card"> 
+          <div class="card-header"><h2>Men's Jeans</h2></div>
+          <div class="card-body"><img src="../Assets/jeans.jpg"></div>
+          <div class="card-footer"><h3>&#8377; 2400.99</h3></div>
+          </div>
+          <div class="card"> 
+            <div class="card-header"><h2>Shirt</h2></div>
+            <div class="card-body"><img src="../Assets/shirt.jpg"></div>
+            <div class="card-footer"><h3>&#8377; 1700.99</h3></div>
+            </div>
+            <div class="card"> 
+            <div class="card-header"><h2>Shoes</h2></div>
+            <div class="card-body"><img src="../Assets/shoes.jpeg"></div>
+            <div class="card-footer"><h3>&#8377; 2900.00</h3></div>
+            </div>
+        </div>
+        </section>
+        <footer>
+            <div id="footerid1">&copy; 2021 - All Copyright Is Reserved </div>
+            <div id="footerid2">
+                <span>Home</span>
+                <span>Contact Us</span>
+                <span>Help</span>
+                <span>Terms</span>
+            </div>
+        </footer>
+        </body>
+        </div>
+    </body>
+</html>
